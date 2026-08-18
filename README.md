@@ -1,7 +1,8 @@
 Markdown
 # FastAPI-MongoDB---Projeto-Loja
 
-Uma API RESTful desenvolvida com FastAPI e MongoDB para uma gestão eficiente de produtos. Esta aplicação processa pedidos HTTP padrão para criar, ler, atualizar e eliminar (CRUD) registos de produtos numa base de dados MongoDB.
+Uma API RESTful desenvolvida com FastAPI e MongoDB para uma gestão eficiente de produtos. Esta aplicação processa pedidos HTTP padrão para criar, ler, atualizar
+e eliminar (CRUD) registos de produtos numa base de dados MongoDB.
 
 ## 🚀 Funcionalidades
 
@@ -19,16 +20,19 @@ Antes de começar, certifique-se de que tem o seguinte instalado na sua máquina
 
 ## 🛠️ Instalação
 
-Siga estes passos para configurar o projeto na sua máquina local.
+**Siga estes passos para configurar o projeto na sua máquina local**
 
-**1. Clonar o repositório:**
+1. Clonar o repositório:
+
 ```bash
 git clone [https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git](https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git)
 cd FastAPI-MongoDB---Projeto-Loja
+
 2. Criar um ambiente virtual:
 
 Bash
 python -m venv venv
+
 3. Ativar o ambiente virtual (Windows):
 
 Bash
@@ -57,9 +61,9 @@ uvicorn main:app --reload
 A flag --reload garante que o servidor reinicia automaticamente sempre que fizer alterações ao código.
 
 📖 Documentação da API
-Assim que o servidor estiver a correr, o FastAPI gera automaticamente documentação interativa para a sua API. Pode aceder à mesma navegando para os seguintes URLs no seu browser:
+Assim que o servidor estiver a correr, o FastAPI gera automaticamente documentação interativa para a sua API. Pode aceder à mesma navegando
+para os seguintes URLs no seu browser:
 
 Swagger UI: http://127.0.0.1:8000/docs (Ideal para testar os endpoints diretamente)
 
 ReDoc: http://127.0.0.1:8000/redoc (Excelente para ler a documentação padrão da API)
-
