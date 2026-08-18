@@ -69,3 +69,7 @@ instalação do seguinte em cmd/bash e com virtual environment ativado:
 - pip install uvicorn
 - pip install pymongo
 - pip install bson
+
+Se todos os produtos foram apagados é possível correr o ficheiro insert_script para testes, correndo dentro da pasta do projecto e
+na linha de comandos adicionando 10 produtos de cada categoria:
+- python insert_script.py
