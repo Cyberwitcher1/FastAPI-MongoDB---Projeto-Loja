@@ -1,4 +1,3 @@
-Markdown
 # FastAPI-MongoDB---Projeto-Loja
 
 Uma API RESTful desenvolvida com FastAPI e MongoDB para uma gestão eficiente de produtos. Esta aplicação processa pedidos HTTP padrão para criar, ler, atualizar
