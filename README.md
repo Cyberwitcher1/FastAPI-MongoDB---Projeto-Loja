@@ -1,6 +1,7 @@
 # FastAPI-MongoDB---Projeto-Loja
 
-Uma API RESTful desenvolvida com FastAPI e MongoDB para uma gestão eficiente de produtos. Esta aplicação processa pedidos HTTP padrão para criar, ler, atualizar
+Uma API RESTful desenvolvida com FastAPI e MongoDB para uma gestão eficiente de produtos.  
+Esta aplicação processa pedidos HTTP padrão para criar, ler, atualizar
 e eliminar (CRUD) registos de produtos numa base de dados MongoDB.
 
 ## 🚀 Funcionalidades
@@ -42,14 +43,10 @@ Certifique-se de que o seu ambiente virtual está ativo e, em seguida, execute:
 
 - pip install -r requirements.txt
 
-⚙️ Configuração
-Se houver algum dificuldade ou falta de depedências terá que ser instalado o seguinte em cmd/bash e com virtual environment ativado:
+5. Colocar a connection string e ligar a base de dados:
 
-- pip install uvicorn
-- pip install pymongo
-- pip install bson
-
-Depois no ficheiro database.py colocar a respectiva connection string/link para ter acesso a base de dados no atlas com o user e password.
+Depois no ficheiro database.py colocar a respectiva connection string/link para ter
+acesso a base de dados no atlas com o user e password.
 
 🏃‍♂️ Executar a Aplicação
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando na raiz do seu projeto:
@@ -58,9 +55,17 @@ Para iniciar o servidor de desenvolvimento, execute o seguinte comando na raiz d
 A flag --reload garante que o servidor reinicia automaticamente sempre que fizer alterações ao código.
 
 📖 Documentação da API
-Assim que o servidor estiver a correr, o FastAPI gera automaticamente documentação interativa para a sua API. Pode aceder à mesma navegando
-para os seguintes URLs no seu browser:
+Assim que o servidor estiver a correr, o FastAPI gera automaticamente documentação interativa para a sua API.  
+Pode aceder à mesma navegando para os seguintes URLs no seu browser:
 
 Swagger UI: http://127.0.0.1:8000/docs (Ideal para testar os endpoints diretamente)
 
 ReDoc: http://127.0.0.1:8000/redoc (Excelente para ler a documentação padrão da API)
+
+⚙️ Configuração/Troubleshoot
+Se houver algum dificuldade ou falta de depedências pode ser resolvido com a 
+instalação do seguinte em cmd/bash e com virtual environment ativado:
+
+- pip install uvicorn
+- pip install pymongo
+- pip install bson
