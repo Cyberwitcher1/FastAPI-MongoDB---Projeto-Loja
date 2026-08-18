@@ -22,42 +22,40 @@ Antes de começar, certifique-se de que tem o seguinte instalado na sua máquina
 
 **Siga estes passos para configurar o projeto na sua máquina local**
 
+
+```
 1. Clonar o repositório:
 
-```bash
-git clone [https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git](https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git)
-cd FastAPI-MongoDB---Projeto-Loja
+- git clone [https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git](https://github.com/Cyberwitcher1/FastAPI-MongoDB---Projeto-Loja.git)
+- cd FastAPI-MongoDB---Projeto-Loja
 
 2. Criar um ambiente virtual:
 
-Bash
-python -m venv venv
+- python -m venv venv
 
 3. Ativar o ambiente virtual (Windows):
 
-Bash
-.\venv\Scripts\activate
+- .\venv\Scripts\activate
 (Utilizadores de Mac/Linux: source venv/bin/activate)
 
 4. Instalar as dependências:
 Certifique-se de que o seu ambiente virtual está ativo e, em seguida, execute:
 
-Bash
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ⚙️ Configuração
 Se houver algum dificuldade ou falta de depedências terá que ser instalado o seguinte em cmd/bash e com virtual environment ativado:
-pip install uvicorn
-pip install pymongo
-pip install bson
+
+- pip install uvicorn
+- pip install pymongo
+- pip install bson
 
 Depois no ficheiro database.py colocar a respectiva connection string/link para ter acesso a base de dados no atlas com o user e password.
 
 🏃‍♂️ Executar a Aplicação
 Para iniciar o servidor de desenvolvimento, execute o seguinte comando na raiz do seu projeto:
 
-Bash
-uvicorn main:app --reload
+- uvicorn main:app --reload
 A flag --reload garante que o servidor reinicia automaticamente sempre que fizer alterações ao código.
 
 📖 Documentação da API
